@@ -1,0 +1,57 @@
+.columnL {
+  float: left;
+}
+.rowL {
+  content: "";
+  clear: both;
+  display: table;
+}
+.hL{
+	text-align: "left";
+	text-shadow: 2px 2px;
+	color: green;
+	font-size: 45px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #003300;
+}
+
+li {
+  float: left;
+  border-right: 0.5px solid gray;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  font-size: 25px;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+.videoclass{
+	margin-top: 100px;
+	margin-left: 5%;
+}
+
+
+footer {
+  background-color: #003300;
+  padding: 5px;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+}
